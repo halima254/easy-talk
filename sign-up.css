@@ -1,57 +1,78 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url(sunset-1807524__480.webp);
+    background-image: url(./images/sunset-1807524__480.webp);
     background-repeat: no-repeat;
     background-size: cover;
 } 
-  * {
+* {
   
     box-sizing: border-box;
 }
-  .right {
-    float: right;
+#bigtext{
+    font-family: SeoulHangang CEB;
+    font-size: 144px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144px;
+    letter-spacing: 0.02em;
+    float: left;
+    margin-left: 90px;
+    color: crimson;   
+}
+#talk{
+    margin-left: 80px;
+}
+.right {
+    width: 25%;
     background-color: rgba(88, 86, 86, 50%);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 150px;
 } 
   /* Add padding to containers */
-  .container {
+.container {
     width: 90%;
-    padding: 16px;
-  }
-    .sign-up{
-      margin-top: 30px;
-  }
+    padding-left: 15px;
+}
+/* .sign-up{
+    margin-top: 30px;
+} */
   
   /* Full-width input fields */
-  input[type=text], input[type=password] {
-    width: 100%;
-    padding: 5px;
+input[type=text], input[type=password] {
+    width: 70%;
+    padding: 10px;
     margin: 5px ;
     display: flex;
     border: none;
+    border-radius: 10px;
     background: #f1f1f1;
-  }
+}
   
   /* Overwrite default styles of hr */
-  hr {
+hr {
     border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
+    margin-bottom: 5px;
+}
   
   /* Set a style for the submit button */
-  .signupbtn {
+.signupbtn {
     background-color: crimson;
-    padding: 16px 20px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 50%;
     opacity: 0.9;
-  }
+    margin-left: 85px;
+    font-size: 24px;
+    font-weight: bold;
+}
   
-  .signupbtn:hover {
-    opacity: 1;
-  }
+.signupbtn:hover {
+    opacity: 0.8;
+}
   
   /* Set a grey background color and center the text of the "sign in" section */
-  .signin {
+.signin {
     text-align: center;
-  }
+}
