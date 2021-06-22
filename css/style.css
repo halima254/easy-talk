@@ -4,7 +4,7 @@ body{
 }
 
 header{
-    background-image:url(../images/forum.jpg);
+    background-image:url(../images/banner.jpg);
     background-size: cover;
     background-position:center;
     background-attachment: local;
@@ -46,4 +46,29 @@ li a:hover{
     padding: 10px 20px;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+.container {
+    height: 680px;
+    position: relative;
+}
+
+.left{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.tittle{
+    padding-top: 300px;
+    padding-right: 700px;
+    text-align: center;
+    color: black;
+
+
 }
