@@ -1,0 +1,46 @@
+        .mypic {
+            width: 100%;
+        }
+        
+        body {
+            margin: auto;
+        }
+        
+        .two {
+            width: 25%;
+            height: 200px;
+            background: #F4E7E7;
+            align-items: center;
+            float: left;
+            margin-left: 300px;
+            margin-top: -150px;
+            padding-left: 10px;
+        }
+        
+        .one {
+            margin-left: 500px;
+            font-size: 0px;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: bolder;
+            color: #dc143c;
+        }
+        
+        .three {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 150px;
+            align-items: center;
+        }
+        
+        #onetwo {
+            align-items: center;
+        }
+        
+        .h2 h2 {
+            text-align: center;
+            margin-right: 100px;
+            margin-top: 80px;
+        }
