@@ -1,3 +1,4 @@
+/*log in page style*/
 body{
     background-image: url(./sunset-1807524__480.webp);
     background-size: cover;
@@ -7,12 +8,17 @@ body{
     float: left;
     color: crimson;
     font-size: 120px;
+    margin-left: 80px ;
+}
+#bigtalk{
+    padding-left: 100px;
+    color: yellow;
 }
 .form-box {
     width: 380px;
     height: 480px;
     position: relative;
-    margin: 2% auto;
+    margin: 10% auto;
     background: rgba(0,0,0,0.3);
     padding: 10px;
     overflow: hidden;
@@ -25,6 +31,8 @@ body{
     border-radius: 30px;
 }
 .toggle-btn{
+    font-weight: bold;
+    font-size: 12px;
     padding: 10px 30px;
     cursor: pointer;
     background: transparent;
@@ -64,6 +72,9 @@ body{
     border-bottom: 1px solid #999;
     outline: none;
     background: transparent;
+    font-style: italic;
+    font-size: 14px;
+    color: black;
 }
 .submit-btn{
     width: 85%;
@@ -77,11 +88,11 @@ body{
     border-radius: 30px;
 }
 .check-box{
-    margin: 30px 10px 34px 0;
+    margin: 30px 5px 37px 0;
 }
 span{
     color: #777;
-    font-size: 12px;
+    font-size: 18px;
     bottom: 68px;
     position: absolute;
 }
@@ -99,3 +110,4 @@ span{
     color: white;
     font-size: 15;
 }
+/*Footer design*/

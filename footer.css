@@ -1,8 +1,40 @@
 #footer{
     background-color: crimson;
     display: flex;
+    color: white;
 }
 #easy-talk {
-    width: 40%;
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
     border: 70px;
+}
+#easy{
+    color: black;
+}
+#find-us {
+    margin-left: 250px;
+}
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+#quick-links{
+    margin-left: 250px;
+}
+#newsletter {
+    margin-left: 200px;
+}
+#newsletter input{
+    color: ;
+}
+.newsletter {
+    color: white;
+}
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
 }
