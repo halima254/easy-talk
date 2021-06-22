@@ -1,75 +1,5 @@
-.content{
-    background-image: url("/images/background1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover ;
-    height: 50vh;
-    
-}
-.navbar {
-    overflow: hidden;
-    background-color: crimson;
-    
-  }
-  
-  .navbar a {
-    float: right;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: right;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  .navbar1{
 
-    overflow: hidden;
-    background-color: white;
-  }
+
   .banner{
       background-image: url("/images/background.png");
       background-repeat: no-repeat;
@@ -83,12 +13,16 @@
   .banner h3 {
       
       padding-top: 250px;
-      padding-left: 200px;
+      padding-left: 100px;
       font-weight: 600;
+      font-size: 30px;
+      color: white;
   }
   .banner p{
-      padding-left: 200px;
+      padding-left: 100px;
       font-weight: 600;
+      font-size: 20px;
+      color: white;
   }
   .navbar1 a {
     float: right;
@@ -103,7 +37,7 @@
      top: 0px;
      left: 0px;
      width: 100vw;
-     height: 100vh;
+     height: 500vh;
      background-color: rgb(0, 0, 0, 0.7);
      z-index: 1;
      display: none;
@@ -125,7 +59,7 @@
       transform: translate(-50%, -50%) scale(0);
       background: crimson;
       width: 200px;
-      height: 370px;
+      height: 400px;
       z-index: 2;
       text-align: center;
       padding: 20px;
@@ -203,6 +137,12 @@
   margin-right: 40px;
     
 }
+
+.div h2{
+ margin-top: -40px;
+ margin-left: 60px;
+
+}
 .div-2{
     display: flex;
     justify-content: space-evenly;
@@ -212,10 +152,11 @@
 .div-3{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 .popupi .overlayi {
-    position:fixed;
+  
     top: 0px;
     left: 0px;
     width: 100vw;
@@ -227,13 +168,13 @@
 .popupi .contenti{
     position: absolute;
     top: 110%;
-    left: 60%;
+    left: 10%;
      transform: translate(-50%, -50%) scale(0);
-     background: crimson;
-     width: 200px;
+     background: blue;
+     width: 500px;
      height: 370px;
      z-index: 2;
-     text-align: center;
+     text-align: right;
      padding: 20px;
      box-sizing: border-box;
 }   
@@ -261,4 +202,34 @@
     transition: all 300ms ease-in-out;
     transform: translate(-50%, -50%);
 
+}
+.popup .inner{
+    float: left;
+    background-color: white;
+    margin-top: -257px;
+    width: 300px;
+    height: 300px;
+    margin-left: -400px;
+
+}
+.popup .inner1{
+    float: left;
+    background-color: white;
+    margin-top: -257px;
+    width: 300px;
+    height: 300px;
+    margin-left: -400px;
+
+}
+.inner .book{
+    margin-top: 40px;
+    background-color: crimson;
+}
+.book{
+    margin-top: 70px;
+    background-color: crimson;
+    height: 30px;
+    width: 120px;
+    margin-left: 600px;
+    margin-bottom: 60px;
 }
