@@ -1,6 +1,3 @@
-* {
-    overflow-wrap: normal;
-}
 .mypic {
             width: 100%;
         }
@@ -29,9 +26,6 @@
         
         .three {
             display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0px;
         }
         
         #onetwo {
@@ -56,6 +50,30 @@
             background-color: white;
         }
         
+.team-members {
+    display: flex;
+    margin: 50px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 18px;
+}
+
+.card {
+    background-color: #F4E7E7;
+    margin: 10px;
+    border-radius: 10px;
+    /* box-shadow: 5px 10px yellow; */
+}
+
+.member-div img {
+    height: 190px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
         .fourfive {
             display: flex;
             justify-content: space-evenly;
@@ -63,21 +81,34 @@
             height: 200px;
             background-color: bisque;
             padding: 50px;
-            margin-left: 100px;
+            margin-left: 300px;
         }
         #empty1 {
             height: 200px;
-            width: 18%;
-            background-color: #F4E7E7;
+            width: 20%;
+            background-color: #f4e7e7;
+            margin-left:100px ;
         }
         #empty2 {
             height: 200px;
-            width: 18%;
+            width: 20%;
             background-color: #F4E7E7;
         }
         #empty3 {
             height: 200px;
-            width: 18%;
+            width: 20%;
             background-color: #F4E7E7;
+            
+        }
+        #pic1 {
+            margin-top: 100px;
+            
+        }
+        #pic2 {
+            margin-top:100px;
+            
+        }
+        #pic3 {
+            margin-top: 100px;
         }
         
