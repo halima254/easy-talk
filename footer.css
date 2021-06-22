@@ -1,0 +1,8 @@
+#footer{
+    background-color: crimson;
+    display: flex;
+}
+#easy-talk {
+    width: 40%;
+    border: 70px;
+}
