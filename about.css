@@ -1,9 +1,8 @@
-        .mypic {
+* {
+    overflow-wrap: normal;
+}
+.mypic {
             width: 100%;
-        }
-        
-        body {
-            margin: auto;
         }
         
         .two {
@@ -31,8 +30,8 @@
         .three {
             display: flex;
             justify-content: space-between;
-            margin-top: 150px;
             align-items: center;
+            font-size: 0px;
         }
         
         #onetwo {
@@ -44,3 +43,41 @@
             margin-right: 100px;
             margin-top: 80px;
         }
+        
+        .four {
+            height: 150px;
+            background-color: white;
+            padding: 5px;
+        }
+        
+        .five {
+            height: 150px;
+            padding: 5px;
+            background-color: white;
+        }
+        
+        .fourfive {
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+            height: 200px;
+            background-color: bisque;
+            padding: 50px;
+            margin-left: 100px;
+        }
+        #empty1 {
+            height: 200px;
+            width: 18%;
+            background-color: #F4E7E7;
+        }
+        #empty2 {
+            height: 200px;
+            width: 18%;
+            background-color: #F4E7E7;
+        }
+        #empty3 {
+            height: 200px;
+            width: 18%;
+            background-color: #F4E7E7;
+        }
+        
