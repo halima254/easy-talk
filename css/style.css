@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:url(../images/forum.jpg);
+    background-size: cover;
+    background-position:center;
+    background-attachment: local;
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li{
+    float: right;
+    padding: 15px;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+.btnform{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
