@@ -1,0 +1,22 @@
+body{
+    max-height: auto;
+    max-width: 100%;
+
+}
+.background{
+    background:url('/images/forum.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    padding-top: 400px;
+    padding-left: 75px;
+}
+h2{
+    padding-top: 10px;
+    color: crimson;
+
+}
