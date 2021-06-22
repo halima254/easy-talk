@@ -3,6 +3,11 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
+#bigtext {
+    float: left;
+    color: crimson;
+    font-size: 120px;
+}
 .form-box {
     width: 380px;
     height: 480px;
@@ -66,7 +71,7 @@ body{
     cursor: pointer;
     display: block;
     margin: auto;
-    background: #f3c693;
+    background:crimson;
     border: 0;
     outline: none;
     border-radius: 30px;
