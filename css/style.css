@@ -115,3 +115,45 @@ span{
     font-size: 14px;
 }
 /*Footer design*/
+/*styles the whole footer body*/
+#footer{
+    padding-top: 100px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on the footer*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+#quick-links{
+    margin-left: 250px;
+}
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}
