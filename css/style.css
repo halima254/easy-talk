@@ -192,7 +192,7 @@ ul {
 /* 
 ul{
     list-style-type: none;
-    margin: 0;
+    margin: 0; 
     padding: 0px;
     overflow: hidden;
     background-color: crimson;
@@ -258,7 +258,7 @@ li a:hover{
 
 
 
-.customers{
+.e-talk{
     height: auto;
     width: auto;  
     padding: 120px;  
@@ -277,7 +277,7 @@ li a:hover{
     padding: 2px;
     background-color: rgb(253, 242, 242, 50%);
 }
-#ourmenu { 
+#aboutet { 
     border-left: 1px solid grey;
     height: 210px; 
     margin: auto;
@@ -360,7 +360,7 @@ th:hover{
 }
 
 
-
+/* End of items */
 
 
 
@@ -394,6 +394,10 @@ th:hover{
 /*style the quick links on the footer*/
 #quick-links{
     margin-left: 250px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    
 }
 /*style the subscribe section of the footer*/
 #newsletter {
