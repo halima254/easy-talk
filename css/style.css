@@ -78,34 +78,6 @@ h2 {
     margin-left: 300px;
     margin-bottom: 100px;
 }
-/* }
-#empty1 {
-    height: 200px;
-    width: 20%;
-    background-color: #F4E7E7;
-    margin-left:100px ;
-}
-#empty2 {
-    height: 200px;
-    width: 20%;
-    background-color: #F4E7E7;
-}
-#empty3 {
-    height: 200px;
-    width: 20%;
-    background-color: #F4E7E7;
-    
-}
-#empty4{
-    height: 200px;
-    width: 20%;
-    background-color: #F4E7E7;
-}
-#empty5{
-    height: 200px;
-    width: 20%;
-    background-color: #F4E7E7;
-}
 /* nancy */
 #pic1 {
     margin-top: 40px;
@@ -204,7 +176,7 @@ a {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: crimson;
   }
   
   .box1:hover .overlay {
