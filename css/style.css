@@ -56,41 +56,97 @@ text-align: center;
     margin-top: 60px;
     
 }
-#img4{
+.img4{
     margin-right: 60px;
+  
 }
- /* .space-img1>img{
-    border-top: 20px solid pink;
-    border-left: 20px solid pink; 
-} */
+ 
 #blank1{
 width: 200px;
 height: 200px;
 margin-top: -230px;
-margin-left: 40px;
+margin-left: 60px;
 background-color: #F4E7E7;
+box-shadow: 0px 0px 6px;
 
 }
 #blank2{
     width: 200px;
     height: 200px;
     margin-top: -230px;
-    margin-left: 40px;
+    margin-left: 60px;
     background-color: #F4E7E7;
+    box-shadow: 0px 0px 6px;
 }
 #blank3{
     width: 200px;
     height: 200px;
     margin-top: -230px;
-    margin-left: 40px;
+    margin-left: 60px;
     background-color: #F4E7E7;
+    box-shadow: 0px 0px 6px;
 }
 #blank4{
 width: 200px;
 height: 200px;
 margin-top: -230px;
-margin-left: 40px;
+margin-left: 60px;
 background-color: #F4E7E7;
+box-shadow: 0px 0px 6px;
 }
-   
-
+.join{
+    margin-top: 50px;
+    width: 120px;
+    padding: 7px;
+    background-color: crimson;
+    color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+/* Footer design
+/*styles the whole footer body*/
+#footer{
+    padding-top: 100px;
+    padding-top: 70px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on find us*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+/*style the quick links on the footer*/
+#quick-links{
+    margin-left: 250px;
+}
+/*style the subscribe section of the footer*/
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+/*style the input field of the subscribe section*/
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+} */
