@@ -34,7 +34,16 @@ h2 {
 /* Combination of the boxes and the images */
 .three {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.pic1{
+    margin-left: 40px;
+}
+.pic2{
+    margin-left:50px;
+}
+.pic3{
+    margin-left: 50px;
 }
 /* Combination of the about-us image and the paragraph */
 #onetwo {
@@ -69,6 +78,7 @@ h2 {
     margin-left: 300px;
     margin-bottom: 100px;
 }
+/* }
 #empty1 {
     height: 200px;
     width: 20%;
@@ -86,24 +96,36 @@ h2 {
     background-color: #F4E7E7;
     
 }
+#empty4{
+    height: 200px;
+    width: 20%;
+    background-color: #F4E7E7;
+}
+#empty5{
+    height: 200px;
+    width: 20%;
+    background-color: #F4E7E7;
+}
 /* nancy */
 #pic1 {
     margin-top: 40px;
     margin-left:-240px;
+    margin-right: 50px; 
+
 }
 /* Halima */
 #pic2 {
     margin-top:40px;
-    margin-left:-240px;  
+    margin-left:-240px; 
+    margin-right: 50px; 
     
 }
 /* Aisha */
 #pic3 {
     margin-top: 40px;
-     margin-left: -240px;
-     
-    
-}
+    margin-left: -240px;
+    margin-right: 50px; 
+} 
 /* On the pictures */
 a:hover{
     text-decoration: none;
@@ -150,6 +172,7 @@ a {
     color: white;
 }
 /*style the input field of the subscribe section*/
+
 .input-field{
     padding: 5px;
     border-radius: 7px;
@@ -157,6 +180,113 @@ a {
     width: 90%;
     border: none;
 }
-.image--title:hover{
-    visibility: hidden;
-}
+
+
+
+.box1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .box1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box2 {
+    position: relative;
+    width: 50%;
+  }
+  .pic1 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .box2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box3 {
+    position: relative;
+    width: 50%;
+  }
+  .pic3 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box3:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
