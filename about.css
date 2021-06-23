@@ -1,118 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* syle the image to fill the whole page */
 .mypic {
-            width: 100%;
-        }
-        
-        .two {
-            width: 25%;
-            height: 200px;
-            background: #F4E7E7;
-            align-items: center;
-            float: left;
-            margin-left: 300px;
-            margin-top: -150px;
-            padding-left: 10px;
-        }
-        
-        .one {
-            margin-left: 500px;
-            font-size: 0px;
-        }
-        
-        h2 {
-            text-align: center;
-            font-weight: bolder;
-            color: #dc143c;
-        }
-        
-        .three {
-            display: flex;
-        }
-        
-        #onetwo {
-            align-items: center;
-        }
-        
-        .h2 h2 {
-            text-align: center;
-            margin-right: 100px;
-            margin-top: 80px;
-        }
-        
-        .four {
-            height: 150px;
-            background-color: white;
-            padding: 5px;
-        }
-        
-        .five {
-            height: 150px;
-            padding: 5px;
-            background-color: white;
-        }
-        
-.team-members {
-    display: flex;
-    margin: 50px;
+    width: 100%;
 }
-
-.text-center {
+.mypic>img{
+    width: 100%;
+}
+/*About us pragraph*/
+.two {
+    width: 25%;
+    height: 200px;
+    background: #F4E7E7;
+    align-items: center;
+    float: left;
+    margin-left: 300px;
+    margin-top: -150px;
+    padding-left: 10px;
+}
+/* The image next to the paragraph */
+.one {
+    margin-left: 500px;
+    font-size: 0px;
+}
+/* All the headings */
+h2 {
     text-align: center;
-    font-size: 18px;
+    font-weight: bolder;
+    color: #dc143c;
+}
+/* Combination of the boxes and the images */
+.three {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pic1{
+    margin-left: 40px;
+}
+.pic2{
+    margin-left:50px;
+}
+.pic3{
+    margin-left: 50px;
+}
+/* Combination of the about-us image and the paragraph */
+#onetwo {
+    align-items: center;
+}
+/* specifically the "meet our team heading" */
+.h2 h2 {
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+/* professionals */
+.four {
+    height: 150px;
+    background-color: white;
+    padding: 5px;
+}
+/* Forums */
+.five {
+    height: 150px;
+    padding: 5px;
+    background-color: white;
+}
+/* combination of professionals and forums */
+.fourfive {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 200px;
+    background-color: bisque;
+    padding: 50px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+/* nancy */
+#pic1 {
+    margin-top: 40px;
+    margin-left:-240px;
+    margin-right: 50px; 
+
+}
+/* Halima */
+#pic2 {
+    margin-top:40px;
+    margin-left:-240px; 
+    margin-right: 50px; 
+    
+}
+/* Aisha */
+#pic3 {
+    margin-top: 40px;
+    margin-left: -100px;
+    margin-right: 0px; 
+}
+/* On the pictures */
+a:hover{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+a {
+    text-decoration: none;
+}
+#footer{
+    padding-top: 70px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on find us*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+/*style the quick links on the footer*/
+#quick-links{
+    margin-left: 250px;
+}
+/*style the subscribe section of the footer*/
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+/*style the input field of the subscribe section*/
+
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 90%;
+    border: none;
 }
 
-.card {
-    background-color: #F4E7E7;
-    margin: 10px;
-    border-radius: 10px;
-    /* box-shadow: 5px 10px yellow; */
-}
 
-.member-div img {
-    height: 190px;
-    width: 190px;
-    padding: 10px;
-    border-radius: 20px;
-}
 
-        .fourfive {
-            display: flex;
-            justify-content: space-evenly;
-            width: 50%;
-            height: 200px;
-            background-color: bisque;
-            padding: 50px;
-            margin-left: 200px;
-        }
-        #empty1 {
-            height: 200px;
-            width: 20%;
-            background-color: #F4E7E7;
-            margin-left:100px ;
-        }
-        #empty2 {
-            height: 200px;
-            width: 20%;
-            background-color: #F4E7E7;
-        }
-        #empty3 {
-            height: 200px;
-            width: 20%;
-            background-color: #F4E7E7;
-            
-        }
-       #empty1 #pic1 {
-            margin-top: 100px;
-            padding: 0px;
-            margin-right: 100px;
-            
-        }
-        #pic2 {
-            margin-top:100px;
-        
-            
-            
-        }
-        #pic3 {
-            margin-top: 100px;
-        }
-        
+.box1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box1:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box2 {
+    position: relative;
+    width: 50%;
+  }
+  .pic1 {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box2:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box3 {
+    position: relative;
+    width: 50%;
+  }
+  .pic3 {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box3:hover .overlay {
+    opacity: 0.6;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
