@@ -1,10 +1,17 @@
 body{
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
 }
 
 /*the navigations styling*/
+=======
+    margin: 0;
+    padding: 0;
+    
+}
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 .top-nav{
     /* position: fixed; */
     display: flex;
@@ -14,7 +21,10 @@ body{
     background-color: white;
     justify-content: space-between;
     position: fixed;
+<<<<<<< HEAD
     margin-top: -30px;
+=======
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 
 }
 /* .icons{
@@ -26,6 +36,10 @@ body{
     display: flex;
 }
 img{
+<<<<<<< HEAD
+=======
+
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
     margin-left:20px ;
     padding: 0px;
     height: 50px;
@@ -34,18 +48,27 @@ img{
 
 .top-nav .icons ul{
     display: flex;
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
   }
   
   .top-nav .icons ul li{
     margin: 0 12px;
+<<<<<<< HEAD
     background-color: wheat;
+=======
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
   }
   
   .top-nav .icons ul li img{
     width: 30px;
+<<<<<<< HEAD
     height: 10px;
+=======
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
   }
   
   
@@ -84,10 +107,16 @@ img{
     width:100vw;
     height: 70px;
     align-items: center;
+<<<<<<< HEAD
     color: white;
     background-color: red; 
     /* justify-content: space-between; */
     margin-top: 10px;
+=======
+    background-color: red;
+    /* justify-content: space-between; */
+    margin-top: 50px;
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
    
     
    
@@ -159,8 +188,11 @@ color: black;
 
 li {
     float: left;
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
   }
   
   li a {
@@ -189,6 +221,10 @@ ul {
 }
 
 /* .topnav{
+<<<<<<< HEAD
+=======
+
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 } */
 /* header{
     
@@ -200,7 +236,11 @@ ul {
 /* 
 ul{
     list-style-type: none;
+<<<<<<< HEAD
     margin: 0;
+=======
+    margin: 0; 
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
     padding: 0px;
     overflow: hidden;
     background-color: crimson;
@@ -213,6 +253,10 @@ ul{
     float: right;
     padding: 15px;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 li a{
     display: block;
     color: white;
@@ -220,6 +264,10 @@ li a{
     padding: 14px 16px;
     text-decoration: none;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 li a:hover{
     background-color: #111;
 } */
@@ -251,13 +299,20 @@ li a:hover{
 
 .tittle{
     background-image:url(../images/banner.jpg);
+<<<<<<< HEAD
     height: 100vh;
+=======
+    height: 60vh;
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
     padding-top: 300px;
     padding-right: 700px;
     text-align: center;
     color: black;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 }
 
 .tittle h1 span{
@@ -266,6 +321,7 @@ li a:hover{
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -800,6 +856,117 @@ box-shadow: 0px 0px 6px;
 #footer{
     padding-top: 100px;
 >>>>>>> 22cb5181c090aa688df2fc9b8c450e462c34efdc
+=======
+.e-talk{
+    height: auto;
+    width: auto;  
+    padding: 120px;  
+    padding-top: 50px;
+    background: transparent;
+    margin-left: 00px;
+    margin-bottom: 0px;
+}
+.revabt{
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px grey;
+    padding: 2px;
+    background-color: rgb(253, 242, 242, 50%);
+}
+#aboutet { 
+    border-left: 1px solid grey;
+    height: 210px; 
+    margin: auto;
+}
+#review, #about{
+    text-align: center; 
+    font-size: 16.5px;
+}
+#review{
+    flex: 3;
+    margin-right: 40px;
+    text-align: center;
+}
+#about{
+    flex: 2;
+    margin-left: 40px;
+}
+#review > h3, #about >h3{
+    color: #F15A29;
+}
+
+
+/* div class items */
+
+.menuitems{
+    background-image: url('./images/desert.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px;
+    background-color: rgba(160, 156, 156, 0.79); 
+    background-blend-mode: overlay;   
+
+}
+.container1{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 0px;
+    height: auto;
+}
+.caroselitems {
+    color: #F15A29;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+#food{
+    display:flex;
+    flex-direction: column;
+    overflow: auto;
+    margin: 5px ;
+}
+#tr{
+    text-align: center;
+}
+.carosel{
+    margin: 0px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: gainsboro;
+    border: 1px solid rgb(206, 203, 203);
+    padding: 10px;
+    height: 50px;
+}
+#table1{
+    color: #F15A29;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+th:hover{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: #F15A29;
+}
+
+
+/* End of items */
+
+
+
+
+/* footer starts here */
+#footer{
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
     padding-top: 70px;
     background-color: crimson;
     display: flex;
@@ -827,6 +994,13 @@ box-shadow: 0px 0px 6px;
 /*style the quick links on the footer*/
 #quick-links{
     margin-left: 250px;
+<<<<<<< HEAD
+=======
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
 }
 /*style the subscribe section of the footer*/
 #newsletter {
@@ -840,6 +1014,7 @@ box-shadow: 0px 0px 6px;
     padding: 5px;
     border-radius: 7px;
     cursor: pointer;
+<<<<<<< HEAD
     width: 90%;
     border: none;
 <<<<<<< HEAD
@@ -856,3 +1031,9 @@ box-shadow: 0px 0px 6px;
     height: 500px;
 }
 >>>>>>> 22cb5181c090aa688df2fc9b8c450e462c34efdc
+=======
+    width: 100%;
+    border: none;
+}
+
+>>>>>>> f797b6bdeeb35000167e08cacf4a05a031962220
