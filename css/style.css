@@ -136,20 +136,23 @@ span{
 #find-us {
     margin-left: 250px;
 }
-/*style the link text on the footer*/
+/*style the link text on find us*/
 #find-us>a{
     display: block;
     padding: 5px;
 }
+/*style the quick links on the footer*/
 #quick-links{
     margin-left: 250px;
 }
+/*style the subscribe section of the footer*/
 #newsletter {
     margin-left: 200px;
 }
 .newsletter {
     color: white;
 }
+/*style the input field of the subscribe section*/
 .input-field{
     padding: 5px;
     border-radius: 7px;
