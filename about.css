@@ -1,0 +1,118 @@
+.mypic {
+            width: 100%;
+        }
+        
+        .two {
+            width: 25%;
+            height: 200px;
+            background: #F4E7E7;
+            align-items: center;
+            float: left;
+            margin-left: 300px;
+            margin-top: -150px;
+            padding-left: 10px;
+        }
+        
+        .one {
+            margin-left: 500px;
+            font-size: 0px;
+        }
+        
+        h2 {
+            text-align: center;
+            font-weight: bolder;
+            color: #dc143c;
+        }
+        
+        .three {
+            display: flex;
+        }
+        
+        #onetwo {
+            align-items: center;
+        }
+        
+        .h2 h2 {
+            text-align: center;
+            margin-right: 100px;
+            margin-top: 80px;
+        }
+        
+        .four {
+            height: 150px;
+            background-color: white;
+            padding: 5px;
+        }
+        
+        .five {
+            height: 150px;
+            padding: 5px;
+            background-color: white;
+        }
+        
+.team-members {
+    display: flex;
+    margin: 50px;
+}
+
+.text-center {
+    text-align: center;
+    font-size: 18px;
+}
+
+.card {
+    background-color: #F4E7E7;
+    margin: 10px;
+    border-radius: 10px;
+    /* box-shadow: 5px 10px yellow; */
+}
+
+.member-div img {
+    height: 190px;
+    width: 190px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+        .fourfive {
+            display: flex;
+            justify-content: space-evenly;
+            width: 50%;
+            height: 200px;
+            background-color: bisque;
+            padding: 50px;
+            margin-left: 200px;
+        }
+        #empty1 {
+            height: 200px;
+            width: 20%;
+            background-color: #F4E7E7;
+            margin-left:100px ;
+        }
+        #empty2 {
+            height: 200px;
+            width: 20%;
+            background-color: #F4E7E7;
+        }
+        #empty3 {
+            height: 200px;
+            width: 20%;
+            background-color: #F4E7E7;
+            
+        }
+       #empty1 #pic1 {
+            margin-top: 100px;
+            padding: 0px;
+            margin-right: 100px;
+            
+        }
+        #pic2 {
+            margin-top:100px;
+        
+            
+            
+        }
+        #pic3 {
+            margin-top: 100px;
+        }
+        
