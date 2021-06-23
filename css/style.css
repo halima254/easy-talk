@@ -8,7 +8,7 @@ body{
     float: left;
     color: crimson;
     font-size: 120px;
-    margin-left: 80px ;
+    margin-left: 80px;
 }
 #bigtalk{
     padding-left: 100px;
@@ -72,9 +72,6 @@ body{
     border-bottom: 1px solid #999;
     outline: none;
     background: transparent;
-    font-style: italic;
-    font-size: 14px;
-    color: black;
 }
 .submit-btn{
     width: 85%;
@@ -86,12 +83,14 @@ body{
     border: 0;
     outline: none;
     border-radius: 30px;
+    font-weight: bold;
+    font-size: 14px;
 }
 .check-box{
     margin: 30px 5px 37px 0;
 }
 span{
-    color: #777;
+    color: black;
     font-size: 18px;
     bottom: 68px;
     position: absolute;
@@ -109,5 +108,10 @@ span{
 #register input{
     color: white;
     font-size: 15;
+}
+::-webkit-input-placeholder{
+    color: black;
+    opacity: 1;
+    font-size: 14px;
 }
 /*Footer design*/
