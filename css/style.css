@@ -5,6 +5,7 @@ body{
    padding: 0;
    margin: 0;
 }
+/* styling the background */
 .background{
     background:url('/images/forum.jpg');
     background-size: 100%; 
@@ -18,7 +19,7 @@ body{
     padding-left: 75px;
 }
 
-
+/* styling the background of the paragraph in the body */
 .forum{
     display: flex;  
     background-color: #F4E7E7;
@@ -60,7 +61,7 @@ text-align: center;
     margin-right: 60px;
   
 }
- 
+ /* styling blank divs to add a background color to the images */
 #blank1{
 width: 200px;
 height: 200px;
@@ -103,16 +104,12 @@ box-shadow: 0px 0px 6px;
     border: black solid 1px;
     border-radius: 5px;
 }
+/* adding hovers in pictures */
 .container{
     position: relative;
     width: 50%;
 }
-.image{
-    display: block;
-    width: auto;
-    height: auto;
 
-}
 .overlay{
    
     height: 100%;
@@ -121,7 +118,7 @@ box-shadow: 0px 0px 6px;
     transition: .5s ease;
     background-color: lightgray;
 }
-.container1:hover .overlay{
+.container:hover .overlay{
     opacity: 1;
 }
 .text{
@@ -136,11 +133,27 @@ box-shadow: 0px 0px 6px;
     position: relative;
     width: 50%;
 }
-.img1{
+/* .img1{
     display: block;
     width: 100%;
     height: auto;
 
+} */
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+}
+.container1:hover .overlay{
+    opacity: 1;
+}
+
+.container3{
+    position: relative;
+    width: 50%;
 }
 .overlay{
    
@@ -150,9 +163,31 @@ box-shadow: 0px 0px 6px;
     transition: .5s ease;
     background-color: lightgray;
 }
-.container:hover .overlay{
+.container3:hover .overlay{
     opacity: 1;
 }
+.container4{
+    position: relative;
+    width: 50%;
+}
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+}
+.container4:hover .overlay{
+    opacity: 1;
+}
+
+
+
+
+
+
+
 /* Footer design
 /*styles the whole footer body*/
 #footer{
