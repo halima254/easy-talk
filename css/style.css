@@ -18,6 +18,10 @@ body{
     padding-top: 255px;
     padding-left: 75px;
 }
+#word{
+    color: crimson;
+    font-weight: bold;
+}
 
 /* styling the background of the paragraph in the body */
 .forum{
@@ -61,7 +65,7 @@ text-align: center;
     margin-right: 60px;
   
 }
- /* styling blank divs to add a background color to the images */
+ /* styling blank classes that would act as a background of 'find your forum images*/
 #blank1{
 width: 200px;
 height: 200px;
@@ -99,15 +103,21 @@ box-shadow: 0px 0px 6px;
     margin-top: 50px;
     width: 120px;
     padding: 7px;
+    margin-bottom: 10px;
     background-color: crimson;
     color: white;
     border: black solid 1px;
     border-radius: 5px;
+    
 }
-/* adding hovers in pictures */
+.join a{
+    text-decoration: none;
+    color: #fff;
+}
+/* styling hover to enable texts to be visible when you touch on the forum images */
 .container{
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 
 .overlay{
@@ -116,44 +126,43 @@ box-shadow: 0px 0px 6px;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: lightgray;
+    /* background-color: lightgray; */
 }
 .container:hover .overlay{
-    opacity: 1;
+    opacity: 0.6;
 }
 .text{
     color: white;
-    font-size: 12px;
+    font-size: 20px;
     position: absolute;
-    top: 50%;
-    left:50%;
+    top: 20%;
+    left:30%;
     transform: translate(-50%, -50%);
 }
 .container1{
     position: relative;
-    width: 50%;
+    width: 80%;
 }
-/* .img1{
-    display: block;
-    width: 100%;
-    height: auto;
 
-} */
 .overlay{
-   
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
     height: 100%;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: lightgray;
+    background-color: crimson;
 }
 .container1:hover .overlay{
-    opacity: 1;
+    opacity: 0.6;
 }
 
 .container3{
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 .overlay{
    
@@ -161,14 +170,14 @@ box-shadow: 0px 0px 6px;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: lightgray;
+    background-color: crimson;
 }
 .container3:hover .overlay{
-    opacity: 1;
+    opacity: 0.6;
 }
 .container4{
     position: relative;
-    width: 50%;
+    width: 80%;
 }
 .overlay{
    
@@ -176,16 +185,11 @@ box-shadow: 0px 0px 6px;
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: lightgray;
+    background-color: crimson;
 }
 .container4:hover .overlay{
-    opacity: 1;
+    opacity: 0.6;
 }
-
-
-
-
-
 
 
 /* Footer design
@@ -232,6 +236,15 @@ box-shadow: 0px 0px 6px;
     padding: 5px;
     border-radius: 7px;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
     border: none;
+    
 } 
+/*metting styling section*/
+.meeting{
+    background-color: crimson;
+    /* background-image: url("./images/meeting.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
