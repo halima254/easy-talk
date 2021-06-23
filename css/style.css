@@ -1,7 +1,9 @@
 .mypic {
     width: 100%;
 }
-
+.mypic>img{
+    width: 100%;
+}
 .two {
     width: 25%;
     height: 200px;
@@ -51,30 +53,6 @@ h2 {
     background-color: white;
 }
 
-.team-members {
-display: flex;
-margin: 50px;
-}
-
-.text-center {
-text-align: center;
-font-size: 18px;
-}
-
-.card {
-background-color: #F4E7E7;
-margin: 10px;
-border-radius: 10px;
-/* box-shadow: 5px 10px yellow; */
-}
-
-.member-div img {
-height: 190px;
-width: 190px;
-padding: 10px;
-border-radius: 20px;
-}
-
 .fourfive {
     display: flex;
     justify-content: space-evenly;
@@ -82,7 +60,8 @@ border-radius: 20px;
     height: 200px;
     background-color: bisque;
     padding: 50px;
-    margin-left: 200px;
+    margin-left: 300px;
+    margin-bottom: 100px;
 }
 #empty1 {
     height: 200px;
@@ -115,4 +94,59 @@ border-radius: 20px;
      margin-left: -240px;
      
     
+}
+a:hover{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+a {
+    text-decoration: none;
+}
+#footer{
+    padding-top: 70px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on find us*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+/*style the quick links on the footer*/
+#quick-links{
+    margin-left: 250px;
+}
+/*style the subscribe section of the footer*/
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+/*style the input field of the subscribe section*/
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 90%;
+    border: none;
+}
+.image--title:hover{
+    visibility: hidden;
 }
