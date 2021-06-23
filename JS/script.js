@@ -41,6 +41,7 @@
       alert('Input for location cannot be empty')
    }  
      alert('Thank you for booking with us!')
+     document.getElementById("myform").reset();
    }
 
 
