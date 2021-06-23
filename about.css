@@ -5,29 +5,46 @@ body {
 #top-nav {
     display: flex;
 }
-/* .sign-up{
+.sign-up{
     display: flex;
 }
 .icons>ul{
-    display: flex; */
+    display: flex;
 }
 .bottom-nav{
     background-color: crimson;
     display: flex;
+    height: 60px;
+    color: white;
+    
+    
+}
+
+.bottom-nav nav ul li{
+  
+   color: yellow;
 }
 .logo-text{
     color: white;
+    width: 20%;
+    margin-right: -200px;
+    padding: 20px;
+    margin-top: -10px;
+   
 }
 .top-nav-items>ul{
     display: flex;
     list-style: none;
-    color: black;
+    color: white;
+    margin-left: -150px;
+
 }
 .top-nav-items{
     margin-left: 1000px;
 }
 .top-nav-items>ul>li{
      padding: 7px;
+     color: white;
 }
 .top-nav-items a{
     display: block;
@@ -37,6 +54,7 @@ body {
     background-color: unset;
     border: crimson;
     cursor: pointer;
+    color: white;
 }
 a {
     text-decoration: none;
