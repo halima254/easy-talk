@@ -6,9 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="JS/script.js"></script>
+
     <title>Viewtherapist</title>
 </head>
 <body>
+    <!--Head section for navigations-->
+    <header>
+        <nav>
+         <div class="nav">
+ 
+ 
+             <div class="top-nav">
+                 <div class="signup">
+                     <button class="signup-button">sign-up</button>
+ 
+                 </div>
+                 <div class="icons">
+                     <ul>
+                         <li><a href="#"><img src="/images/download (1).png" alt=""></a></li>
+                         <li><a href="#"><img src="/images/download (2).png" alt=""></a></li>
+                         <li><a href="#"><img src="/images/download.png" alt=""></a></li>
+                         <li><a href="#"><img src="/images/images.png" alt=""></a></li>
+                       </ul>
+                 </div>
+ 
+            
+     
+             </div>
+             <div class="bottom-nav">
+                 <h3 class="logo-text">Easy Talk</h3>
+                 <div class="top-nav-items">
+                 <ul >
+                     <li class="active"> <a href="home"> Home</a> </li>
+                     <li > <a href="About-us"> About</a> </li>
+                     <div class="drop">
+                         <button class="dropbtn"> Services
+                             <i class="fa fa-caret-down"></i>
+                         </button>
+ 
+                         <div class="drop-content">
+                             <id class="text1">
+                                 <a href="view-therapist.html">View Therapist</a>
+                                 <a href="forum.html">View Forums</a>
+                            </id>
+ 
+                         </div>
+ 
+                     </div>
+             
+ 
+                     <li > <a href="Contact-Us"> Contact Us</a> </li>
+                   
+               
+                 </ul>
+             </div>
+             </div>
+ 
+         </div>
+         </nav>
+ 
+        <!-- <div class="tittle">
+             <h1>
+                 <span>Problems half shared is half </span>solved, We are here <br> because you matter</h1>
+             <div class="container">
+                 <div class="left">
+                     <a href="Sign-In" class="btnform">Sign In</a>
+     
+                 </div>
+     
+             </div>
+ 
+         </div>
+          -->
+     </header>
+ 
     <!--The banner with cancellors image-->
 
     <div class="banner">
@@ -122,8 +193,8 @@
     <div class="popup" id="popup-1">
         <div class="overlay"></div>
         <div class="content">
-        <div class="close-btn"onclick="togglePopup()"></div>
-        <h1>Naomi-Mruttu</h1>
+        <div class="close-btn"onclick="togglePopup()">&times;</div>
+        <h1>Naomi-Mruttu  </h1>
         <p>profession: Grief and addiction</p>
         <p>Location: Nairobi </p>
         <p> Availability :Available </p>
@@ -142,29 +213,40 @@
 <!-- <button class="book">Book Session</button>-->
   <div class="book1">   
     <input type="checkbox" id="show">
-    <label for="show" class="book">Book Session</label> 
+   
       <div class="container2">
-          <label for="show" class="times">&times;</label>
-          <div class="text">Book Session</div>
-          <form action="#">
+          <!-- <label for="show" class="times">&times;</label>
+          <div id="main">
+            <div id="head"><h1>Make Booking</h1></div> -->
+            
+            <label>Name</label> <input type="text" id ="A" required> <br>
+            <label>Email</label> <input type="email" id ="B" required> <br>
+            <label>Password</label> <input type="Password" id ="C" required> <br>
+            <label>Location</label> <input type="text" id ="D" required> <br>
+            <br>
+            <button  type="submit"  class="btn1" onClick= "validate()" > Submit</button>
+        </div>
+
+          <!-- <form method="POST" >
              <div class="data">
                  <label>Name</label>
-                 <input type="text" required>
+                 <input type="text" id="aa"required>
              </div>
              <div class="data">
-                <label>Email or Phone</label>
-                <input type="email" required>
+                <label>Email</label>
+                <input type="email" id="a2" required>
             </div>
             <div class="data">
                 <label>Password</label>
-                <input type="password" required>
+                <input type="password" id="a1" required>
             </div>
             <div class="btn">
                 <div class="inside"></div>
-                <button type="Submit">Book</button>
+                <button type="submit" onclick = "validateform()">Book</button>
                 
             </div>
-          </form>
+            <button type="submit">Book</button>
+          </form> -->
       </div>
   </div>
 </div>
@@ -172,5 +254,44 @@
 <div class="map">
    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7905371822694!2d36.78239551475386!3d-1.3005322990514376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f109dcb26a413%3A0xca1c503989df391d!2sNgong%20Lane%20Plaza!5e0!3m2!1sen!2ske!4v1624367283430!5m2!1sen!2ske" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
 </div>
+<footer id="footer">
+    <div id="easy-talk">
+        <h4>EASY TALK</h4>
+        <p>
+            We are a business development agency based </br>in Westlands,
+            Kenya.We provide holistic </br>business and marketing platforms
+            to </br>entrepreneurs and SMEs.</br>
+            Fedha Plaza, Westlands</br>
+            info@greenhubkenya.com</br>
+            +254 791 934 458
+            </p>
+    </div>
+    <div id="find-us">
+        <h4>Find us on</h4>
+        <a href="x">twitter</a>
+        <a href="x">Facebook</a>
+        <a href="x">Dribble</a>
+        <a href="x">Instagram</a>
+        <a href="x">Linkedin</a>
+    </div>
+    <div id="quick-links">
+        <h4>Quick links</h4>
+        <p>Home</p>
+        <p>About</p>
+        <p>Services</p>
+        <p>Contact Us</p>
+    </div>
+    <div id="newsletter">
+        <p>Newsletter</p>
+        <p>Sign up for our weekly newsletter</p>
+        <input type="email" class="input-field" placeholder="Enter Email">
+    </div>
+</footer>
+
+
+
+
+
+
 </body>
 </html>
