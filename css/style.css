@@ -226,23 +226,31 @@
     background-color: crimson;
 }
 .book{
-    margin-top: 70px;
-    background-color: crimson;
-    height: 30px;
-    width: 120px;
-    margin-left: 600px;
-    margin-bottom: 60px;
+    background: crimson;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: 700px;
+    margin-bottom: -1300px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+} 
+input[type="checkbox"]{
+    display: none;
 }
+
 .map{
     margin-left: 150px;
 }
-.container2{
+.book .container2{
     position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 .container2{
+    display: none;
     background:#fff ;
     width: 410px;
     padding: 30px;
@@ -305,4 +313,23 @@ form .btn button{
     letter-spacing: 1px;
     cursor: pointer;
 
+}
+
+.btn .inside button{
+    cursor: pointer;
+}
+
+.container2 .times{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.container2 .times:hover{
+    color: red;
+    font-weight: 600;
+}
+#show:checked ~ .container2{
+    display: block;
 }
