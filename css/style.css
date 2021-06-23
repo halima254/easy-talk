@@ -33,10 +33,13 @@ img{
 
 .top-nav .icons ul{
     display: flex;
+    
+
   }
   
   .top-nav .icons ul li{
     margin: 0 12px;
+    background-color: black;
   }
   
   .top-nav .icons ul li img{
@@ -79,7 +82,8 @@ img{
     width:100vw;
     height: 70px;
     align-items: center;
-    background-color: red;
+    color: white;
+    background-color: red; 
     /* justify-content: space-between; */
     margin-top: 10px;
    
@@ -400,6 +404,7 @@ li a:hover{
 /*the map styling*/
 .map{
     margin-left: 150px;
+    margin-top: -400px;
 }
 
 /*the booking form styling*/
@@ -421,14 +426,13 @@ input[type="checkbox"]{
 }
 
 
-.book1 .container2{
+/* .book1 .container2{
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     margin-top: 900px;
     margin-left: 200px;
-}
+} */
 
 .book1 .book2{
     background-color: brown;
@@ -443,6 +447,8 @@ input[type="checkbox"]{
     padding: 30px;
     box-shadow: 0 0 8px rgb(0, 0, 0, 0.1);
     margin-bottom: -300px;
+    margin-left: 700px;
+    margin-top: 70px;
 }
 .container2 .text{
     font-size: 35px;
@@ -506,8 +512,24 @@ form .btn button{
 
 }
 
-.btn .inside button{
-    /* cursor: pointer; */
+#myform{
+    background: #fff;
+  padding: 4em 4em 2em;
+  max-width: 400px;
+  margin: 50px auto 0;
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+  margin-top: -60px;
+  margin-bottom: 100px;
+  
+    
+}
+#myform input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    margin:0;
 }
 
 .container2 .times{
