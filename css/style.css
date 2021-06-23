@@ -103,6 +103,56 @@ box-shadow: 0px 0px 6px;
     border: black solid 1px;
     border-radius: 5px;
 }
+.container{
+    position: relative;
+    width: 50%;
+}
+.image{
+    display: block;
+    width: auto;
+    height: auto;
+
+}
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+}
+.container1:hover .overlay{
+    opacity: 1;
+}
+.text{
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.container1{
+    position: relative;
+    width: 50%;
+}
+.img1{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: lightgray;
+}
+.container:hover .overlay{
+    opacity: 1;
+}
 /* Footer design
 /*styles the whole footer body*/
 #footer{
@@ -149,4 +199,4 @@ box-shadow: 0px 0px 6px;
     cursor: pointer;
     width: 100%;
     border: none;
-} */
+} 
