@@ -1,0 +1,494 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+    #top-nav {
+        display: flex;
+    }
+    .sign-up{
+        display: flex;
+    }
+    .icons>ul{
+        display: flex;
+    }
+    .bottom-nav{
+        background-color: crimson;
+        display: flex;
+        height: 360px;
+        color: white;
+         
+        
+        
+    }
+    
+    .bottom-nav nav ul li{
+      
+       color: yellow;
+    }
+    .logo-text{
+        color: white;
+        width: 20%;
+        margin-right: -200px;
+        padding: 20px;
+        margin-top: -10px;
+       
+    }
+    .top-nav-items>ul{
+        display: flex;
+        list-style: none;
+        color: white;
+        margin-left: -150px;
+    
+    }
+    .top-nav-items{
+        margin-left: 1000px;
+    }
+    .top-nav-items>ul>li{
+         padding: 7px;
+         color: white;
+    }
+    .top-nav-items a:hover{
+        background-color: black;
+        height: 50px;
+        width: 60px;
+    }
+    .top-nav-items a{
+        display: block;
+        color: white;
+    }
+    .dropbtn{
+        text-decoration: unset;
+        background-color: unset;
+        border: crimson;
+        cursor: pointer;
+        color: white;
+        margin-top: 9px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .text1 {
+        display: none;
+    }
+    .drop:hover .text1{
+        cursor: pointer;
+        display: block;
+    }
+/* }
+.top-nav{
+    /* position: fixed; */
+    /* display: flex;
+    width:100vw;
+    height: 50px;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    position: fixed; */
+
+}
+/* .icons{
+    margin-left:20px ;
+    justify-content: space-between;
+    height: 20px;
+    width: 50;
+    padding-bottom: 30px;
+    display: flex;
+}
+img{
+    margin-left:20px ;
+    padding: 0px;
+    height: 50px;
+} */
+
+
+/* .top-nav .icons ul{
+    display: flex;
+  }
+  
+  .top-nav .icons ul li{
+    margin: 0 12px;
+  }
+  
+  .top-nav .icons ul li img{
+    width: 30px;
+  }
+  
+  
+  
+  
+  .top-nav .icons ul li a{
+    display: block;
+    padding: 8px 10px;
+    color: #666666;
+    
+  } */
+/*   
+.logo-text{
+    color: white; */
+
+/* 
+.signup-button{
+
+    background-color: #F0A028;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    margin-top: -25px;
+    
+
+} */
+
+/* .bottom-nav{
+    position: fixed;
+    display: flex;
+    width:100vw;
+    height: 70px;
+    align-items: center;
+    background-color: red;
+    /* justify-content: space-between; */
+    /* margin-top: 50px;
+    */
+    
+   
+
+/* }
+
+.drop{
+    float: right;
+    overflow: hidden;
+    cursor: inherit;
+
+}
+.dropbtn{
+    cursor: pointer;
+    color: white;
+}
+
+.drop .dropbtn {
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+} */
+/* 
+.bottom-nav a:hover, .drop:hover .dropbtn{
+    background-color: white;
+    color: black;
+}
+
+.drop-content{
+    background-color: white; 
+    display: none;
+    position: absolute;
+   min-width: 100px; */
+   /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+   /* z-index: 1;
+   color: wh;
+    */
+
+/* } */
+
+/* .drop-content #text1{
+color: black;
+}
+
+
+.drop-content a{
+    float: none;
+    color: rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left; */
+/* }
+
+.drop-content a:hover{
+    background-color: white;
+}
+
+.drop:hover .drop-content {
+    display: block;
+}
+
+
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+    margin-left: 1250px;
+   
+    
+    overflow: hidden;
+
+  }
+  li a:hover{
+    background-color: #111;
+    color: red;
+} */ */ */
+
+/* .topnav{
+} */
+/* header{
+    
+    background-size: cover;
+    background-position:center;
+    background-attachment: local;
+    height: 100vh;
+} */
+/* 
+ul{
+    list-style-type: none;
+    margin: 0; 
+    padding: 0px;
+    overflow: hidden;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+
+/* li{
+    float: right;
+    padding: 15px;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #111;
+} */
+
+.btnform{
+    background-color: crimson;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+}
+
+.container {
+    height: 680px;
+    position: relative;
+}
+
+.left{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: 100px;
+    border: 1px solid crimson;
+    width: 100px;
+    height: 30px;
+    color: white;
+}
+
+.tittle{
+    background-image:url(../images/banner.jpg);
+    height: 250px;
+    padding-top: 200px;
+    padding-right: 700px;
+    text-align: center;
+    color: black;
+    margin-bottom: 600px;
+    margin-top: -300px;
+}
+
+.tittle h1 span{
+    color: #fff;
+}
+
+
+
+.e-talk{
+    height: auto;
+    width: auto;  
+    padding: 120px;  
+    padding-top: 50px;
+    background: transparent;
+    margin-left: 00px;
+    margin-bottom: 0px;
+}
+.revabt{
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-radius: 2px;
+    box-shadow: 0px 0px 6px grey;
+    padding: 2px;
+    background-color: rgb(253, 242, 242, 50%);
+    margin-top: 200px;
+    width: 600px;
+    margin-left: 400px;
+}
+#aboutet { 
+    border-left: 1px solid grey;
+    height: 210px; 
+    margin: auto;
+}
+#review, #about{
+    text-align: center; 
+    font-size: 16.5px;
+}
+#review{
+    flex: 3;
+    margin-right: 40px;
+    text-align: center;
+}
+#about{
+    flex: 2;
+    margin-left: 40px;
+}
+#review > h3, #about >h3{
+    color: #F15A29;
+}
+
+
+/* div class items */
+
+.menuitems{
+    background-image: url('./images/desert.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 80px;
+    background-color: rgba(160, 156, 156, 0.79); 
+    background-blend-mode: overlay;   
+
+}
+.container1{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 0px;
+    height: auto;
+}
+.caroselitems {
+    color: #F15A29;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+#food{
+    display:flex;
+    flex-direction: column;
+    overflow: auto;
+    margin: 5px ;
+}
+#tr{
+    text-align: center;
+}
+.carosel{
+    margin: 0px;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: gainsboro;
+    border: 1px solid rgb(206, 203, 203);
+    padding: 10px;
+    height: 50px;
+}
+#table1{
+    color: #F15A29;
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+th:hover{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    color: #F15A29;
+}
+
+
+/* End of items */
+
+
+
+
+/* footer starts here */
+#footer{
+    padding-top: 70px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on find us*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+/*style the quick links on the footer*/
+#quick-links{
+    margin-left: 250px;
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+/*style the subscribe section of the footer*/
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+/*style the input field of the subscribe section*/
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+}

@@ -1,0 +1,334 @@
+body{
+    /* max-height: auto;
+    max-width: auto;
+    overflow: scroll; */
+   padding: 0;
+   margin: 0;
+}
+
+#top-nav {
+    display: flex;
+}
+.sign-up{
+    display: flex;
+}
+.icons>ul{
+    display: flex;
+}
+.bottom-nav{
+    background-color: crimson;
+    display: flex;
+    height: 60px;
+    color: white;
+    
+    
+}
+
+.bottom-nav nav ul li{
+  
+   color: yellow;
+}
+.logo-text{
+    color: white;
+    width: 20%;
+    margin-right: -200px;
+    padding: 20px;
+    margin-top: -10px;
+   
+}
+.top-nav-items>ul{
+    display: flex;
+    list-style: none;
+    color: white;
+    margin-left: -150px;
+
+}
+.top-nav-items{
+    margin-left: 1000px;
+}
+.top-nav-items>ul>li{
+     padding: 7px;
+     color: white;
+}
+.top-nav-items a{
+    display: block;
+    color: white;
+}
+
+.top-nav-items a:hover{
+    background-color: black;
+    height: 50px;
+    width: 60px;
+}
+
+.dropbtn{
+    text-decoration: unset;
+    background-color: unset;
+    border: crimson;
+    cursor: pointer;
+    color: white;
+    margin-top: 9px;
+}
+a {
+    text-decoration: none;
+}
+.text1 {
+    display: none;
+}
+.drop:hover .text1{
+    cursor: pointer;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+/* styling the background */
+.background{
+    background:url('/images/forum.jpg');
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    height: 250px;
+    width: auto;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-top: 200px;
+    padding-left: 75px;
+}
+#word{
+    color: crimson;
+    font-weight: bold;
+    margin-top: -90px;
+}
+
+/* styling the background of the paragraph in the body */
+.forum{
+    display: flex;  
+    background-color: #F4E7E7;
+    padding-top: 10px;
+    box-shadow: 0px 0px 6px ;
+}
+#forum-image{
+    width:  27%;
+    height: 250px;
+    display: flex;
+    margin-top: 58px;
+    flex-direction: row;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px;
+}
+.def{
+    float: right;
+    width: 50%;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
+    text-align: left;
+    font-size: 20px;
+}
+h2{
+    color: crimson;
+}
+.safe-spaces,h2{
+text-align: center;
+}
+.space-img1{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    margin-top: 60px;
+    
+}
+.img4{
+    margin-right: 60px;
+  
+}
+ /* styling blank classes that would act as a background of 'find your forum images*/
+#blank1{
+width: 200px;
+height: 200px;
+margin-top: -230px;
+margin-left: 60px;
+background-color: #F4E7E7;
+box-shadow: 0px 0px 6px;
+
+}
+#blank2{
+    width: 200px;
+    height: 200px;
+    margin-top: -230px;
+    margin-left: 60px;
+    background-color: #F4E7E7;
+    box-shadow: 0px 0px 6px;
+}
+#blank3{
+    width: 200px;
+    height: 200px;
+    margin-top: -230px;
+    margin-left: 60px;
+    background-color: #F4E7E7;
+    box-shadow: 0px 0px 6px;
+}
+#blank4{
+width: 200px;
+height: 200px;
+margin-top: -230px;
+margin-left: 60px;
+background-color: #F4E7E7;
+box-shadow: 0px 0px 6px;
+}
+.join{
+    margin-top: 50px;
+    width: 120px;
+    padding: 7px;
+    margin-bottom: 10px;
+    background-color: crimson;
+    color: white;
+    border: black solid 1px;
+    border-radius: 5px;
+    
+}
+.join a{
+    text-decoration: none;
+    color: #fff;
+}
+/* styling hover to enable texts to be visible when you touch on the forum images */
+.container{
+    position: relative;
+    width: 80%;
+}
+
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /* background-color: lightgray; */
+}
+.container:hover .overlay{
+    opacity: 0.6;
+}
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left:30%;
+    transform: translate(-50%, -50%);
+}
+.container1{
+    position: relative;
+    width: 80%;
+}
+
+.overlay{
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+}
+.container1:hover .overlay{
+    opacity: 0.6;
+}
+
+.container3{
+    position: relative;
+    width: 80%;
+}
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+}
+.container3:hover .overlay{
+    opacity: 0.6;
+}
+.container4{
+    position: relative;
+    width: 80%;
+}
+.overlay{
+   
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+}
+.container4:hover .overlay{
+    opacity: 0.6;
+}
+
+
+/* Footer design
+/*styles the whole footer body*/
+#footer{
+    padding-top: 100px;
+    padding-top: 70px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on find us*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+/*style the quick links on the footer*/
+#quick-links{
+    margin-left: 250px;
+}
+/*style the subscribe section of the footer*/
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+/*style the input field of the subscribe section*/
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 90%;
+    border: none;
+    
+} 
+/*metting styling section*/
+.meeting{
+    background-color: crimson;
+    /* background-image: url("./images/meeting.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}

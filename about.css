@@ -1,0 +1,336 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#top-nav {
+    display: flex;
+} 
+.sign-up{
+    display: flex;
+}
+.icons>ul{
+    display: flex;
+}
+.bottom-nav{
+    background-color: crimson;
+    display: flex;
+    height: 70px;
+    width: 100%;
+}
+.logo-text{
+    color: white;
+    margin-left: 40px;
+    width: 200px;
+}
+.top-nav-items>ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+.top-nav-items{
+    margin-left: 800px;
+    justify-content: space-between;
+    margin-right: 40px;
+   
+}
+.top-nav-items>ul>li{
+     padding: 7px;
+     
+     
+}
+.top-nav-items a{
+    display: block;
+    color: white;
+}
+
+
+.top-nav-items a:hover{
+    background-color: black;
+    height: 50px;
+    width: 60px;
+}
+.dropbtn{
+    text-decoration: unset;
+    background-color: unset;
+    border: crimson;
+    cursor: pointer;
+    margin-top: 8px;
+    color: white;
+}
+
+.dropbtn :hover{
+    background-color: black;
+}
+
+ a {
+    text-decoration: none;
+    
+
+}
+.text1 {
+    display: none;
+}
+.drop:hover .text1{
+    cursor: pointer;
+    display: block;
+}
+/* syle the image to fill the whole page */
+.mypic {
+    width: 100%;
+}
+.mypic>img{
+    width: 100%;
+}
+/*About us pragraph*/
+.two {
+    width: 25%;
+    height: 200px;
+    background: #F4E7E7;
+    align-items: center;
+    float: left;
+    margin-left: 300px;
+    margin-top: -150px;
+    padding-left: 10px;
+}
+/* The image next to the paragraph */
+.one {
+    margin-left: 500px;
+    font-size: 0px;
+}
+/* All the headings */
+h2 {
+    text-align: center;
+    font-weight: bolder;
+    color: #dc143c;
+}
+/* Combination of the boxes and the images */
+.three {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.pic1{
+    margin-left: 40px;
+}
+.pic2{
+    margin-left:50px;
+}
+.pic3{
+    margin-left: 50px;
+}
+/* Combination of the about-us image and the paragraph */
+#onetwo {
+    align-items: center;
+}
+/* specifically the "meet our team heading" */
+.h2 h2 {
+    text-align: center;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+/* professionals */
+.four {
+    height: 150px;
+    background-color: white;
+    padding: 5px;
+}
+/* Forums */
+.five {
+    height: 150px;
+    padding: 5px;
+    background-color: white;
+}
+/* combination of professionals and forums */
+.fourfive {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 200px;
+    background-color: bisque;
+    padding: 50px;
+    margin-left: 300px;
+    margin-bottom: 100px;
+}
+/* nancy */
+#pic1 {
+    margin-top: 40px;
+    margin-left:-240px;
+    margin-right: 50px; 
+
+}
+/* Halima */
+#pic2 {
+    margin-top:40px;
+    margin-left:-240px; 
+    margin-right: 50px; 
+    
+}
+/* Aisha */
+#pic3 {
+    margin-top: 40px;
+    margin-left: -100px;
+    margin-right: 0px; 
+}
+/* On the pictures */
+a:hover{
+    text-decoration: none;
+    font-size: 30px;
+
+}
+a {
+    text-decoration: none;
+}
+#footer{
+    padding-top: 70px;
+    background-color: crimson;
+    display: flex;
+    color: white;
+}
+/*style the easy-talk column of the footer*/
+#easy-talk {
+    padding-left: 30px;
+    text-align: left;
+    width: 350px;
+    border: 70px;
+}
+#easy{
+    color: black;
+}
+/*styles the contact text on the footer*/
+#find-us {
+    margin-left: 250px;
+}
+/*style the link text on find us*/
+#find-us>a{
+    display: block;
+    padding: 5px;
+}
+/*style the quick links on the footer*/
+#quick-links{
+    margin-left: 250px;
+}
+/*style the subscribe section of the footer*/
+#newsletter {
+    margin-left: 200px;
+}
+.newsletter {
+    color: white;
+}
+/*style the input field of the subscribe section*/
+
+.input-field{
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 90%;
+    border: none;
+}
+
+
+
+.box1 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box1:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box2 {
+    position: relative;
+    width: 50%;
+  }
+  .pic1 {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box2:hover .overlay {
+    opacity: 0.7;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .box3 {
+    position: relative;
+    width: 50%;
+  }
+  .pic3 {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: crimson;
+  }
+  
+  .box3:hover .overlay {
+    opacity: 0.6;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
