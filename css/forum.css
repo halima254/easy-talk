@@ -52,13 +52,22 @@ body{
 }
 .top-nav-items a{
     display: block;
+    color: white;
 }
+
+.top-nav-items a:hover{
+    background-color: black;
+    height: 50px;
+    width: 60px;
+}
+
 .dropbtn{
     text-decoration: unset;
     background-color: unset;
     border: crimson;
     cursor: pointer;
     color: white;
+    margin-top: 9px;
 }
 a {
     text-decoration: none;

@@ -4,7 +4,7 @@ body {
 }
 #top-nav {
     display: flex;
-}
+} 
 .sign-up{
     display: flex;
 }
@@ -14,50 +14,58 @@ body {
 .bottom-nav{
     background-color: crimson;
     display: flex;
-    height: 60px;
-    color: white;
-    
-    
-}
-
-.bottom-nav nav ul li{
-  
-   color: yellow;
+    height: 70px;
+    width: 100%;
 }
 .logo-text{
     color: white;
-    width: 20%;
-    margin-right: -200px;
-    padding: 20px;
-    margin-top: -10px;
-   
+    margin-left: 40px;
+    width: 200px;
 }
 .top-nav-items>ul{
     display: flex;
     list-style: none;
-    color: white;
-    margin-left: -150px;
-
+    color: black;
 }
 .top-nav-items{
-    margin-left: 1000px;
+    margin-left: 800px;
+    justify-content: space-between;
+    margin-right: 40px;
+   
 }
 .top-nav-items>ul>li{
      padding: 7px;
-     color: white;
+     
+     
 }
 .top-nav-items a{
     display: block;
+    color: white;
+}
+
+
+.top-nav-items a:hover{
+    background-color: black;
+    height: 50px;
+    width: 60px;
 }
 .dropbtn{
     text-decoration: unset;
     background-color: unset;
     border: crimson;
     cursor: pointer;
+    margin-top: 8px;
     color: white;
 }
-a {
+
+.dropbtn :hover{
+    background-color: black;
+}
+
+ a {
     text-decoration: none;
+    
+
 }
 .text1 {
     display: none;
